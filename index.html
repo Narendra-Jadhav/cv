@@ -1,0 +1,119 @@
+<!DOCTYPE html> <!-- to tell the browser that the document type is html 5 -->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- for metadata of the file. The encoding of the character set is given as utf-8.
+      Encoding with utf-8 is necessary to make our website render correctly for all the visitors
+
+    In meta tag we have a attribute -> description
+    It is used to give the description of our website.
+    The search engine will show that description when some person searches for the name of our website
+     -->
+  <title>Narendra's Personal Site</title>
+</head>
+
+<body>
+  <!-- img tag -> Self-closing tag
+src -> source of the image. It can be online url or we can give location of it on our local storage
+alt -> alternative text if the image is not able to get loaded -->
+
+  <table cellspacing="15">
+    <!-- cellspacing: for space between cells -->
+    <tr>
+      <td><img src="images/narendra.png" alt="narendra profile picture" width="200" height="200"></td>
+      <td>
+        <h1>Narendra Jadhav</h1>
+        <p><a href="https://www.linkedin.com/in/narendra-jadhav-318444213/">LinkedIn</a></p>
+        <!-- a tag -> anchor tag.
+        href -> Hyperlink Reference -->
+        <p>
+          <em>Coding ❤ Lover. <strong>Web Development</strong> Enthusiast.</em>
+        </p>
+        <p>
+          Student at Vishwakarma Institute of Information Technology, Pune
+        </p>
+      </td>
+    </tr>
+  </table>
+
+  <hr>
+  <h3>Education</h3>
+  <!-- Unordered List -->
+  <ul>
+    <li>BTech in Computer Engineering at VIIT, Pune<br>2020-2024</li>
+    <li>HSC at K.B.R Patil Junior College, Malegaon, Nashik<br>2020</li>
+    <li>SSC at Adinath English Medium School, Malegaon, Nashik<br>2018</li>
+  </ul>
+  <hr>
+
+  <h3>Work Experience</h3>
+  <!-- Table:
+table -> thead(table head) -> tr(table row) -> th(table header)
+      -> tbody(table body) -> tr(table row) -> td(table data/cell) -->
+  <table cellspacing="10">
+    <thead>
+      <tr>
+        <th>Dates</th>
+        <th>Work</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Sept 2021 - June 2022</td>
+        <td>Technical Team Member at CyberCell VIIT</td>
+      </tr>
+      <tr>
+        <td>Sept 2021 - June 2022</td>
+        <td>Joint Design Head at VIIT ACM Student Chapter</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr>
+
+  <h3>Hobbies</h3>
+  <!-- Ordered List -->
+  <ol>
+    <li>Coding</li>
+    <li>Working with Photoshop, Illustrator</li>
+    <li>Listening music</li>
+  </ol>
+  <hr>
+
+  <h3>Skills</h3>
+  <table border="1">
+    <tr>
+      <td>
+        <table cellspacing="10">
+          <tr>
+            <td>Web Development</td>
+            <td>⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Data Structures and Algorithms</td>
+            <td>⭐⭐⭐</td>
+          </tr>
+        </table>
+      </td>
+
+      <td>
+        <table cellspacing="10">
+          <tr>
+            <td>Machine Learning</td>
+            <td>⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Designing</td>
+            <td>⭐⭐</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <hr>
+  <a href="artwork.html">Artwork</a>
+  <a href="contact.html">Contact Me</a>
+</body>
+
+</html>
